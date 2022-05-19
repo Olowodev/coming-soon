@@ -148,8 +148,7 @@ export default function Home() {
         <meta charSet='UTF-8'/>
         <link rel="icon" href="/logo.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"></link>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
       </Head>
 
 
@@ -169,7 +168,7 @@ export default function Home() {
         </motion.div>
         {submitted ? 
         <div className={styles.success}>
-          <motion.p variants={bounceInRight}>You're officially on the waitlist😁🎉</motion.p>
+          <motion.p variants={bounceInRight}>You&#39;re officially on the waitlist😁🎉</motion.p>
           <div className={styles.successLine}></div>
         </div> 
         :
